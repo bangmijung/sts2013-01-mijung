@@ -5,7 +5,7 @@ st.title("test")
 options = st.multiselect(
     label = 'What are your favorite colors',
     options = ['Green', 'Yellow', 'Red', 'Blue'],
-    default = ['Yellow', 'Red'])
+    default = ['Green', 'Blue'])
 
 labels_from_st_tags = st_tags(
             value=["사회/경제", "안전", "교통"],
